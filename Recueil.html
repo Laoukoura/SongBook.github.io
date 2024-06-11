@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cahier Électronique de Chants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cahier Électronique de Chants</h1>
+        <form id="chantForm">
+            <input type="text" id="titreChant" placeholder="Titre du Chant" required>
+            <textarea id="texteChant" placeholder="Texte du Chant" required></textarea>
+            <input type="text" id="nomPersonne" placeholder="Nom de la personne ayant appris le chant" required>
+            <button type="submit">Ajouter le Chant</button>
+        </form>
+        <h2>Liste des Chants</h2>
+        <ul id="listeChants"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
